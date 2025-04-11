@@ -37,7 +37,7 @@
   },
   "scripts": {
     "build": "web-ext build -s src/",
-    "dev": "npm run remove-locales-github && web-ext run -s src/",
+    "dev": "npm run remove-locales-github && web-ext run -s src/  -f /Applications/Firefox.app/Contents/MacOS/firefox",
     "lint": "npm-run-all lint:*",
     "lint:addon": "./bin/addons-linter.sh",
     "lint:css": "stylelint src/css/*.css",
