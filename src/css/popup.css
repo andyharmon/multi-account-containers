@@ -442,6 +442,10 @@ table {
   --identity-icon: url("/img/usercontext.svg#aws");
 }
 
+[data-identity-icon="clown"] {
+  --identity-icon: url("/img/usercontext.svg#clown");
+}
+
 #current-tab [data-identity-icon="default-tab"] {
   background: center center no-repeat url("/img/blank-tab.svg");
   fill: currentColor;
