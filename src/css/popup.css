@@ -438,6 +438,10 @@ table {
   --identity-icon: url("/img/usercontext.svg#fence");
 }
 
+[data-identity-icon="aws"] {
+  --identity-icon: url("/img/usercontext.svg#aws");
+}
+
 #current-tab [data-identity-icon="default-tab"] {
   background: center center no-repeat url("/img/blank-tab.svg");
   fill: currentColor;
